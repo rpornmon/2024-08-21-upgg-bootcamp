@@ -424,7 +424,7 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 <h2 id="syllabus">Syllabus</h2>
 
 {% if site.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
+  {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
   {% include dc/syllabus.html %}
 {% elsif site.carpentry == "lc" %}
