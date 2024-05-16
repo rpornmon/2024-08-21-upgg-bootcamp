@@ -434,8 +434,6 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 <hr/>
 
 {% comment %}
-
-{% comment %}
 SETUP
 
 Delete irrelevant sections from the setup instructions.  Each
