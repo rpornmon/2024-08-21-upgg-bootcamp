@@ -103,9 +103,12 @@ Welcome to <strong>the UPGG Computational Bootcamp</strong>!!
 <p>
 As genetic techonology advances and the demand for analyzing larger data grows, it is pivotal to develop some background in computational skills. You need basic command line knowledge to operate powerful bioinformatic software and tools, as well as some coding to make both impactful and aesthetically appealing visualization of your research. In this bootcamp, we will touch on basic command lines in Unix and how to manipulate and visualize data in R. Since the best way to learn programing is to try it yourself, we focus on live-coding and have prepared a group project on the last day in which you can explore and utilize your skills freely! Lastly, this bootcamp is mostly student-run and is instructed by peer instructors -- PhD students in UPGG. All of us were, at one point, sitting where you are!
 </p>  
+
+</p>  
 <em>
 This course website was built in courtesy of <a href="https://carpentries.org/">The Carpentries</a>  project.
 </em>
+</p>  
 
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
@@ -203,11 +206,10 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibility:</strong>
 {% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  We are committed to making this bootcamp accessible to everybody.
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
+  <li>The rooms are wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
 
