@@ -98,24 +98,12 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
-</p>
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
+Welcome to <strong>the UPGG Computational Bootcamp</strong>!! As genetic techonology advances and the demand for analyzing larger data grows, it is pivotal to develop some background in computational skills. You need basic command line knowledge to operate many powerful bioinformatic software and tools as well as some coding to make both impactful and aesthetically appealing visualization of your research. In this bootcamp, we will touch on basic command line commands in Unix and how to manipulate and visualize data in R. And since the best way to learn programing is to try it yourself, we are pro-live-coding approach and have prepared the last day for a group project in which you can explore and utilize your skills freely! Lastly, this bootcamp is mostly student-run and is instructed by peer instructors -- PhD students in UPGG. All of us were, at one point, were sitting where you are!
+
+<p>
+<em>
+  This course website was built in courtesy of <a href="https://carpentries.org/">The Carpentries</a>  project.
+</em>
 
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
@@ -220,6 +208,12 @@ special instructions.
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
+
+<p>
+Please get in touch (using contact details below) if we can help making learning easier for you, and we will attempt to provide them. 
+</p>
+
+<!--
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
@@ -238,6 +232,7 @@ special instructions.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 {% endif %}
+-->
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -264,11 +259,13 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+<!--
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+-->
 
 {% comment %}
 WHO CAN ATTEND?
